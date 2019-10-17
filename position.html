@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background: #666;
+    position: relative;
+    margin-top: 50px;
+}
+.pos_abs
+{
+width: 100px;
+height: 100px;
+background: red;
+position: absolute;
+left: 30px;
+top: 30px
+}
+.pos_abs1
+{
+width: 100px;
+height: 100px;
+background: blue;
+position: absolute;
+left: 130px;
+top: 130px
+}
+.pos_abs2
+{
+width: 100px;
+height: 100px;
+background: gray;
+position: absolute;
+left: 230px;
+top: 230px
+}
+</style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="pos_abs">这是带有绝对定位的标题</div>
+        <div class="pos_abs1">这是带有绝对定位的标题</div>
+        <p>通过绝对定位，元素可以放置到页面上的任何位置。</p>
+        <div class="pos_abs2">这是带有绝对定位的标题</div>
+    </div>
+</body>
+
+</html>

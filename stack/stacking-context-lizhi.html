@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        * {
+            margin: 0;
+        }
+
+        html {
+            padding: 20px;
+            font: 12px/20px Arial, sans-serif;
+        }
+
+        div {
+            opacity: 0.95;
+        }
+
+        h1 {
+            font: inherit;
+            font-weight: bold;
+        }
+
+
+        #div4,
+        #div5 {
+            border: 1px dashed #996;
+            background-color: #ffc;
+        }
+
+        #div4 {
+            position: absolute;
+            background-color: rgb(85, 85, 46);
+            z-index: 1;
+            margin-bottom: 15px;
+            padding: 25px 10px 5px;
+        }
+
+        #div5 {
+            margin-top: 15px;
+            padding: 8px 10px;
+        }
+
+        #div6 {
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 150px;
+            height: 125px;
+            border: 1px dashed #009;
+            padding-top: 125px;
+            background-color: #ddf;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <br /><br />
+    
+        
+
+    <div id="div4">
+        Division Element #4
+        z-index: 1;
+
+        <div id="div5">
+            Division Element #5
+            z-index: auto;
+        </div>
+
+        <div id="div6">
+            Division Element #6
+            z-index: -1;
+        </div>
+    </div>
+
+    
+
+</body></html>
