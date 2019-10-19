@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        .parent1 {
+            background-color: #666;
+            /* line-height: 190px; */
+
+        }
+
+        .parent2 {
+            background-color: #666;
+            line-height: 190px;
+        }
+
+        .image {
+            background-color: #666;
+            /* display: block; */
+        }
+
+        .txt1 {
+            font-size: 60px;
+            background-color: antiquewhite;
+        }
+
+        .txt2 {
+            background-color: beige;
+            font-size: 40px;
+        }
+
+        .txt3 {
+            background-color: beige;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="parent1">
+        <img class="image" src="img.jpg" />
+    </p>
+    <p class="parent1">
+        <img class="image" src="img.jpg" /><a class='txt3'>文字</a>
+    </p>
+    <p class="parent2">
+        <img class="image" src="img.jpg" />
+        <a class='txt1'>文字</a>
+        <a class='txt2'>11文字</a>
+    </p>
+    <p class="parent2">
+        <a class='txt1'>文字</a>
+        <a class='txt2'>11文字</a>
+    </p>
+</body>
+
+</html>
